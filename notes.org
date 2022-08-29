@@ -1,0 +1,13 @@
+Here are the commands I used from the video:
+#+begin_src sql
+SELECT * from fans;
+
+UPDATE fans
+SET artist_id = 169
+WHERE
+name != "ix";
+
+DELETE FROM fans WHERE name = "ix";
+
+SELECT * from fans;
+#+end_src
